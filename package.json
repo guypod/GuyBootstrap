@@ -4,7 +4,7 @@
   "description": "a styleguide for the acme corporation",
   "main": "entry.js",
   "dependencies": {
-    "css-loader": "^0.10.1",
+    "css-loader": "^0.15.0",
     "node-sass": "^2.1.1",
     "sass-loader": "^0.6.0",
     "style-loader": "^0.10.2",
