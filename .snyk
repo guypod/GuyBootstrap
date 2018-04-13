@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.2
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - node-sass > pangyp > request > hawk:
+        patched: '2018-04-13T02:31:09.312Z'
+  'npm:minimatch:20160620':
+    - node-sass > pangyp > minimatch:
+        patched: '2018-04-13T02:31:09.312Z'
+    - node-sass > pangyp > glob > minimatch:
+        patched: '2018-04-13T02:31:09.312Z'
+  'npm:request:20160119':
+    - node-sass > pangyp > request:
+        patched: '2018-04-13T02:31:09.312Z'
+  'npm:tar:20151103':
+    - node-sass > pangyp > tar:
+        patched: '2018-04-13T02:31:09.312Z'
